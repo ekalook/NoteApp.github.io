@@ -6,7 +6,7 @@ if(notes) {
     notes.forEach(note => addNewNote(note))
 }
 
-addBtn.addEventListener('click', () => addNewNote('Hi Beka'))
+addBtn.addEventListener('click', () => addNewNote(''))
 
 
 function addNewNote(text = '') {
